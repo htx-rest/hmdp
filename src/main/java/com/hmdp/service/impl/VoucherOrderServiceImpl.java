@@ -28,12 +28,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * <p>
  * 服务实现类
- * </p>
- *
- * @author 虎哥
- * @since 2021-12-22
  */
 @Slf4j
 @Service
@@ -44,8 +39,10 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
 
     @Resource
     private RedisIdWorker redisIdWorker;
+
     @Resource
     private RedissonClient redissonClient;
+
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
@@ -237,7 +234,6 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
         // 3.返回订单id
         return Result.ok(orderId);
     }*/
-
     /*@Override
     public Result seckillVoucher(Long voucherId) {
         // 1.查询优惠券
@@ -316,7 +312,6 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
         }
 
     }*/
-
     /*@Transactional
     public Result createVoucherOrder(Long voucherId) {
         // 5.一人一单

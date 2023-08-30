@@ -2897,3 +2897,11 @@
 2023/08/29 17:39:22 [error] 6892#7428: *85 CreateFile() "D:\javaproject\hm-dianping\nginx-1.18.0/html/hmdp/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:8080"
 2023/08/29 17:44:53 [error] 6892#7428: *90 CreateFile() "D:\javaproject\hm-dianping\nginx-1.18.0/html/hmdp/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:8080"
 2023/08/29 19:24:16 [notice] 9768#13208: signal process started
+2023/08/29 21:02:57 [notice] 9048#1256: signal process started
+2023/08/29 21:23:51 [error] 16272#1500: *8 CreateFile() "D:\javaproject\hm-dianping\nginx-1.18.0/html/hmdp/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:8080"
+2023/08/29 21:26:12 [error] 16272#1500: *10 CreateFile() "D:\javaproject\hm-dianping\nginx-1.18.0/html/hmdp/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:8080"
+2023/08/29 21:28:48 [error] 16272#1500: *15 CreateFile() "D:\javaproject\hm-dianping\nginx-1.18.0/html/hmdp/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:8080"
+2023/08/29 21:30:49 [notice] 3148#15536: signal process started
+2023/08/29 21:30:55 [error] 16188#7536: *21 CreateFile() "D:\javaproject\hm-dianping\nginx-1.18.0/html/hmdp/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:8080"
+2023/08/29 22:30:48 [notice] 5196#12868: signal process started
+2023/08/29 22:47:25 [notice] 12032#13644: signal process started
